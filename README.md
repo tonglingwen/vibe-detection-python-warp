@@ -12,4 +12,9 @@ cd boost_1_75_0_rc1
 ```
 Copy all file in the stage/lib to /usr/lib/x86_64-linux-gnu
 
+# Build vibe
+python setup.py build
+python setup.py install
 
+# Test
+python test.py
