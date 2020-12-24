@@ -1,6 +1,6 @@
 A python interface to warp vibe detection c++.It runs faster than implemented in Python.
 
-download [boost.python](https://dl.bintray.com/boostorg/release/1.75.0/source/boost_1_75_0_rc1.zip) and install boost.python 
+download [boost::python](https://dl.bintray.com/boostorg/release/1.75.0/source/boost_1_75_0_rc1.zip) and install boost::python 
 
 # Install boost.python
 ```
@@ -13,8 +13,10 @@ cd boost_1_75_0_rc1
 Copy all file in the stage/lib to /usr/lib/x86_64-linux-gnu
 
 # Build vibe
+```
 python setup.py build
 python setup.py install
+```
 
 # Test
-python test.py
+`python test.py`
