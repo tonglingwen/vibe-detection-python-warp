@@ -16,8 +16,8 @@ namespace np = boost::python::numpy;
 int first=0;
 int cols=0;
 int rows=0;
-boost::uint8_t* frame;
-boost::uint8_t* segmentationMap;
+boost::uint8_t* frame=NULL;
+boost::uint8_t* segmentationMap=NULL;
 vibeModel_Sequential_t *model;
 
 void vibe_frame()
@@ -34,6 +34,11 @@ void vibe_frame()
 
 void initializevibe(int width,int height)
 {
+	libvibeModel_Sequential_Free(model);
+	if(!frame)
+	   free(frame);
+	if(!segmentationMap)
+	   free(segmentationMap);
 	first=0;
 	cols=width;
 	rows=height;
