@@ -8,12 +8,6 @@
 #include"vibe-background-sequential.h"
 #include<stdlib.h>
 
-//#include <opencv/cv.h>
-//#include <opencv/highgui.h>
-//#include <opencv2/opencv.hpp>
-
-
-//using namespace cv;
 using namespace std;
 using namespace boost::python;
 namespace np = boost::python::numpy;
