@@ -10,3 +10,6 @@ download [boost.python](https://dl.bintray.com/boostorg/release/1.75.0/source/bo
 
 ./b2 install
 ```
+Copy all file in the stage/lib to /usr/lib/x86_64-linux-gnu
+
+
