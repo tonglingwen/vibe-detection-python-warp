@@ -4,6 +4,8 @@ download [boost.python](https://dl.bintray.com/boostorg/release/1.75.0/source/bo
 
 # Install boost.python
 `./bootstrap --with-python=[python-bin-path]`
+
 `./b2 cxxflags=-fPIC cflags=-fPIC --c++11`
+
 `./b2 install`
 
