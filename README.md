@@ -4,10 +4,10 @@ download [boost.python](https://dl.bintray.com/boostorg/release/1.75.0/source/bo
 
 # Install boost.python
 ```
+unzip boost_1_75_0_rc1.zip
+cd boost_1_75_0_rc1
 ./bootstrap --with-python=[python-bin-path]
-
 ./b2 cxxflags=-fPIC cflags=-fPIC --c++11
-
 ./b2 install
 ```
 Copy all file in the stage/lib to /usr/lib/x86_64-linux-gnu
