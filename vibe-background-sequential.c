@@ -308,7 +308,7 @@ int32_t libvibeModel_Sequential_Segmentation_8u_C1R(
   /* Segmentation. */
   memset(segmentation_map, matchingNumber - 1, width * height);
 
-  printf("model::%d\n", model->lastHistoryImageSwapped);
+
 
   /* First history Image structure. */
   for (int index = width * height - 1; index >= 0; --index) {
