@@ -6,7 +6,7 @@ Use python3.8
 ```
 unzip boost_1_75_0_rc1.zip
 cd boost_1_75_0_rc1
-./bootstrap --with-python=[python-bin-path]
+./bootstrap.sh --with-python=[python-bin-path]
 ./b2 cxxflags=-fPIC cflags=-fPIC --c++11
 ./b2 install
 ```
