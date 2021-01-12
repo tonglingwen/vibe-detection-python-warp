@@ -1,7 +1,7 @@
 A python interface to warp c vibe detection.It runs faster than implemented in python.
 
 download [boost::python](https://dl.bintray.com/boostorg/release/1.75.0/source/boost_1_75_0_rc1.zip) and install boost::python 
-Use python3.8
+Use python3.8 gcc5.4
 # Install boost::python
 ```
 unzip boost_1_75_0_rc1.zip
